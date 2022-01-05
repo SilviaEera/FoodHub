@@ -1,0 +1,81 @@
+.hero {
+    background: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    // padding-bottom: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    justify-content: space-between;
+    .text-part {
+        .logo {
+            width: 20%;
+            padding-top: 146px;
+        }
+        // display: flex;
+        // flex-direction: column;
+        .main-heading {
+            color: #fff;
+            font-family: "reey-regular";
+            font-size: 65px;
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+        h4 {
+            color: #fff;
+            font-weight: 700;
+            font-style: italic;
+            letter-spacing: 4px;
+            margin-bottom: 58px;
+        }
+        .hero-info {
+            color: #fff;
+            padding-top: 30px;
+            width: 396px;
+            padding-bottom: 242px;
+        }
+    }
+    .image-part {
+        .plate {
+            width: 40%;
+            position: absolute;
+            top: 10%;
+            right: 0;
+        }
+        .bowl {
+            width: 20%;
+            position: absolute;
+            top: 58%;
+            right: 32%;
+        }
+        .leaf {
+            width: 44%;
+            top: 55%;
+            right: -6%;
+            position: absolute;
+        }
+    }
+}
+
+.hero-btn {
+    color: #2e3034;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}

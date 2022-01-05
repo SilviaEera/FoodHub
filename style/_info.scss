@@ -1,0 +1,41 @@
+#info {
+    background: #27292c;
+    padding: 0 80px;
+    .info-heading {
+        color: #fff;
+        font-family: "reey-regular";
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 80px;
+        padding-top: 50px;
+    }
+}
+
+.text-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .info-box {
+        .info {
+            color: #fff;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            padding: 0 132px;
+            // width: 496px;
+        }
+        // .info-1 {
+        //     padding-left: 180px;
+        //     padding-right: 30px;
+        // }
+        // .info-2 {
+        //     padding-left: 30px;
+        //     padding-right: 180px;
+        // }
+    }
+}
+
+.info-btn {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
